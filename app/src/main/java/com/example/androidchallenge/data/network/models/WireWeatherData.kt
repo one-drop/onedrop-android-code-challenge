@@ -1,30 +1,44 @@
-package com.example.androidchallenge.network.models
+package com.example.androidchallenge.data.network.models
 
-data class WeatherData(
+data class WireWeatherData(
     val lat: Double,
     val lon: Double,
     val timezone: String,
-    val current: CurrentWeather
+    val current: WireCurrentWeather,
+    val daily: List<WireDailyWeather>
 )
 
-data class CurrentWeather(
+data class WireCurrentWeather(
     val dt: Long,
     val sunrise: Long,
     val sunset: Long,
     val temp: Double,
     val feelsLike: Double,
-    val pressure: Int,
     val humidity: Int,
-    val weather: List<Weather>
+    val wind_speed: Double,
+    val wind_deg: Int,
+    val pressure: Int,
+    val weather: List<WireWeather>
 )
 
-data class Weather(
+data class WireDailyWeather(
+    val dt: Long,
+    val sunrise: Long,
+    val sunset: Long,
+    val feelsLike: Double,
+    val humidity: Int,
+    val wind_speed: Double,
+    val wind_deg: Int,
+    val pressure: Int,
+    val weather: List<WireWeather>
+)
+
+data class WireWeather(
     val id: Int,
     val main: String,
     val description: String,
     val icon: String
 )
-
 
 /*
 {

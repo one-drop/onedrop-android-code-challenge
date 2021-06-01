@@ -23,11 +23,11 @@ Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android
 3. Project must be written in [Kotlin](https://kotlinlang.org/).
 4. Project must be architected using [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (MVP)
 5. Feel free to use any tools or libraries you are comfortable with.
-6. Include a README.md to your project that includes the following information:
+6. Include a README.md to your project that includes the following:
 
     * A brief explanation of your code architecture or libraries employed
     * Sample screenshots of your app.
-    * Optional: A “future work” section where you can tell the team about feature or code optimizations that you would have done in the app if you had more time allocated for this challenge.
+    * Optional: A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
 
 ### Bonus Points
 * Include a few unit tests
@@ -38,5 +38,4 @@ Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android
 Once you've completed, push your project to your preferred Git host (Github, GitLab, Bitbucket, etc) and send us the repo link so we can take a look.
 
 * If sharing a public git project is not possible, sending an archive (i.e. zip) of the project is also acceptable.
-* Do not fork this repo
-* Do not submit a pull-request
+* Please do *NOT* fork this repo or create a pull request for your submission.

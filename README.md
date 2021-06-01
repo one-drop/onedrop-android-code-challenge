@@ -11,7 +11,7 @@ Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android
 
 ### Requirements
 
-1. Using the [One Call API](https://openweathermap.org/api/one-call-api), retrieve the weather information for New York. In the spirit of time, use a static latitude/longitude coordinate for the city. We have created for you a `WeatherApi` Retrofit interface with the required endpoint. From this API response, we expect the following set of data to be shown on the main/landing screen:
+1. Retrieve the weather information for New York City using the [One Call API](https://openweathermap.org/api/one-call-api). To save time, you can hardcode the city's latitude/longitude coordinate. In the project, you'll find an existing `WeatherApi` implementation with the required endpoint. From this API response, we expect the following set of data to be shown on the main/landing screen:
 
     * Location (i.e. New York, etc)
     * Temperature

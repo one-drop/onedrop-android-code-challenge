@@ -1,6 +1,6 @@
 # One Drop Android Coding Challenge
 
-At One Drop we take great pride in the quality of our product and our engineering team’s software craft. As such, we request that engineer candidates submit a code challenge for us to make a general assessment of their expertise with the Android platform and software development as a whole.
+At One Drop we take great pride in the quality of our product and our engineering team’s software craft. As such, we request that engineer candidates submit a code challenge to help us assess their expertise with the Android platform and software development as a whole.
 
 We know your time is valuable, so spend as much or as little time as you like. However, we designed this coding challenge so that it should not take more than 3-4 hours to complete.
 

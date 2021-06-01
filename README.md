@@ -32,7 +32,7 @@ Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android
 ### Bonus Points
 * Include a few unit tests
 * Use of RxJava for all your network requests
-* Use Android's location API to use the device's current location (i.e. latitude/longitude coordinates) instead of a static location.
+* Use Android's location API to display weather data for the device's current location rather than hardcoding the latitude/longitude coordinates.
 
 ### Submitting your work
 Once you've completed, push your project to your preferred Git host (Github, GitLab, Bitbucket, etc) and send us the repo link so we can take a look.

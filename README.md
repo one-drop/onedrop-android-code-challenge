@@ -4,34 +4,33 @@ At One Drop we take great pride in the quality of our product and our engineerin
 
 We know your time is valuable, so spend as much or as little time as you like. However, we designed this coding challenge so that it should not take more than 3-4 hours to complete.
 
-### Goal: Weather Forecasting for New York
+### Goal: Build a Weather Forecasting app
 
-Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android application that displays the current weather in New York.
-
+* Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android application that displays the current weather in New York.
+* Retrieve the weather information for New York City using the [One Call API](https://openweathermap.org/api/one-call-api).
+  - To save time, you can hardcode the city's latitude/longitude coordinates (`40.725302, -73.997776`).
+  - In the project, you'll find an existing `WeatherApi` implementation with the required endpoint.
+* Show the following set of data on the main app screen:
+  - Location (e.g. New York)
+  - Temperature
+  - Feels like temperature
+  - Humidity
+  - Wind speed/direction
+  - Atmospheric pressure
+* Include a way to navigate from the main screen to a detail screen that shows a 7-day weather forecast for that location.
 
 ### Requirements
-
-1. Retrieve the weather information for New York City using the [One Call API](https://openweathermap.org/api/one-call-api). To save time, you can hardcode the city's latitude/longitude coordinate. In the project, you'll find an existing `WeatherApi` implementation with the required endpoint. From this API response, we expect the following set of data to be shown on the main/landing screen:
-
-    * Location (i.e. New York, etc)
-    * Temperature
-    * Humidity
-    * Feels like
-    * Wind speed/degrees
-    * Pressure
-2. Another feature of this project is a “detail” screen where we show users a 7-day forecast of the weather. Users will get to this screen by tapping anywhere on the main screen of the app.
-3. Project must be written in [Kotlin](https://kotlinlang.org/).
-4. Project must be architected using [Model-View-Presenter](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter) (MVP)
-5. Feel free to use any tools or libraries you are comfortable with.
-6. Include a README.md to your project that includes the following:
-
-    * A brief explanation of your code architecture or libraries employed
+1. Project must be written in [Kotlin](https://kotlinlang.org/).
+2. Project must be architected in a testable manner (e.g. `Model–view–presenter`, `Model–view–viewmodel`)
+3. Feel free to use any tools or libraries you are comfortable with.
+4. Include a README.md in your project that includes the following:
+    * A brief explanation of your code architecture or libraries employed.
     * Sample screenshots of your app.
-    * Optional: A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
+    * A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
 
 ### Bonus Points
-* Include a few unit tests
-* Use of RxJava for all your network requests
+* Include some unit tests of important logic.
+* Use RxJava or Coroutines.
 * Use Android's location API to display weather data for the device's current location rather than hardcoding the latitude/longitude coordinates.
 
 ### Submitting your work

@@ -24,13 +24,13 @@ We know your time is valuable, so spend as much or as little time as you like. H
 2. Project must be architected in a testable manner
 3. Feel free to use any tools or libraries you are comfortable with.
 4. Include a README.md in your project that includes the following:
-    * A brief explanation of your code architecture or libraries employed
+    * A brief explanation of your code architecture or libraries employed.
     * Sample screenshots of your app.
     * A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
 
 ### Bonus Points
-* Include some unit tests
-* Use RxJava or Coroutines
+* Include some unit tests.
+* Use RxJava or Coroutines.
 * Use Android's location API to display weather data for the device's current location rather than hardcoding the latitude/longitude coordinates.
 
 ### Submitting your work

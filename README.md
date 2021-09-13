@@ -26,6 +26,7 @@ We know your time is valuable, so spend as much or as little time as you like.
 4. Include a README.md in your project that includes the following:
     * A brief explanation of your code architecture or libraries employed.
     * Sample screenshots of your app.
+    * Describe any shortcuts or compromises chosen to save development time.
     * A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
 
 ### Bonus Points

@@ -2,7 +2,7 @@
 
 At One Drop we take great pride in the quality of our product and our engineering team’s software craft. As such, we request that engineer candidates submit a code challenge to help us assess their expertise with the Android platform and software development as a whole.
 
-We know your time is valuable, so spend as much or as little time as you like. However, we designed this coding challenge so that it should not take more than 3-4 hours to complete.
+We know your time is valuable, so spend as much or as little time as you like.
 
 ### Goal: Build a Weather Forecasting app
 
@@ -26,6 +26,7 @@ We know your time is valuable, so spend as much or as little time as you like. H
 4. Include a README.md in your project that includes the following:
     * A brief explanation of your code architecture or libraries employed.
     * Sample screenshots of your app.
+    * Describe any shortcuts or compromises chosen to save development time.
     * A “future work” section where you describe additional features or code optimizations that you would have added to the app if you had more time allocated for this challenge.
 
 ### Bonus Points

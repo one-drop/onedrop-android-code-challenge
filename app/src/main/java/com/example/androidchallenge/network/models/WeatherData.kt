@@ -1,31 +1,35 @@
 package com.example.androidchallenge.network.models
 
+// TEMP split these into separate files
+// TEMP add jackson annotations to all of these properties
+// TEMP rename to WeatherForecast
 data class WeatherData(
-    val lat: Double,
-    val lon: Double,
-    val timezone: String,
+    val lat: Double, // TEMP use value classes
+    val lon: Double, // TEMP use value classes
+    val timezone: String, // TEMP stronger data type
     val current: CurrentWeather
 )
 
 data class CurrentWeather(
-    val dt: Long,
-    val sunrise: Long,
-    val sunset: Long,
-    val temp: Double,
-    val feelsLike: Double,
-    val pressure: Int,
-    val humidity: Int,
-    val weather: List<Weather>
+    val dt: Long, // TEMP better name + stronger data type
+    val sunrise: Long, // TEMP this should be a time data type
+    val sunset: Long, // TEMP this should be a time data type
+    val temp: Double, // TEMP make a Temperature data type that includes unit information
+    val feelsLike: Double, // TEMP feelsLikeTemperature - use above temperature data type
+    val pressure: Int, // TEMP pressure data type that includes unit information
+    val humidity: Int, // TEMP humidity data type that includes unit information
+    val weather: List<Weather> // TEMP not exactly sure what this is, but we could name it better
 )
 
 data class Weather(
-    val id: Int,
-    val main: String,
+    val id: Int, // TEMP value class?
+    val main: String, // TEMP not sure what this is, but name it better and use an enum
     val description: String,
-    val icon: String
+    val icon: String // TEMP might want a class or enum for this
 )
 
 
+// TEMP move this to a example_forecast_response.json file
 /*
 {
     "lat": 40.12,

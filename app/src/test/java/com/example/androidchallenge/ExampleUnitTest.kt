@@ -12,6 +12,8 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        assertEquals(4, 2 + 2) // TEMP resolve this lint warning
     }
 }
+
+// TEMP add some real unit tests as examples - based on StrictMockitoTest?

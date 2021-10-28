@@ -1,4 +1,5 @@
 <resources>
+    <!-- TEMP remove unused strings -->
     <string name="app_name">WeatherChallenge</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->

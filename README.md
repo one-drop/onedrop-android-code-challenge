@@ -7,6 +7,8 @@ We know your time is valuable, so spend as much or as little time as you like.
 ### Goal: Build a Weather Forecasting app
 
 * Use [OpenWeather's REST API](https://openweathermap.org/api) to build an Android application that displays the current weather in New York.
+  - Signup [here](https://openweathermap.org/home/sign_up) to create an account and generate your own API key. You will need the key in order for your app to be authorized to access OpenWeather's endpoints.
+  - The key generated in your account needs to be place in the `key` constant inside the `WeatherApi` class.
 * Retrieve the weather information for New York City using the [One Call API](https://openweathermap.org/api/one-call-api).
   - To save time, you can hardcode the city's latitude/longitude coordinates (`40.725302, -73.997776`).
   - In the project, you'll find an existing `WeatherApi` implementation with the required endpoint.

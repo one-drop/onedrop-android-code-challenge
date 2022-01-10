@@ -5,7 +5,7 @@ import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-private const val key = "59ac41458256ef1fc2ebfddda1ded2da"
+private const val key = "insert_your_key_here"
 
 interface WeatherApi {
 
